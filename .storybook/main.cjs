@@ -17,11 +17,11 @@ module.exports = {
   "features": {
     "storyStoreV7": true
   },
-  /*viteFinal: (config, { configType }) => {
+  viteFinal: (config, { configType }) => {
     if (configType == 'PRODUCTION') {
-      config.base = 'repositorio'
+      config.base = 'ignite-lab-03-design-system'
     }
 
     return config
-  }*/
+  }
 }
